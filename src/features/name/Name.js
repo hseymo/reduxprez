@@ -14,7 +14,7 @@ function Name() {
 
   const onFormSubmit = (e) => {
     e.preventDefault();
-    dispatch(updateName(fullname.first + ' ' + fullname.last))
+    dispatch(updateName(fullname))
     setFullName({
       first:'',
       last: ''

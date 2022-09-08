@@ -1,7 +1,8 @@
 import {createSlice} from '@reduxjs/toolkit';
 
 const initialState = {
-    name: 'no name', 
+    first: 'no', 
+    last: 'name'
 }
 
 const nameSlice = createSlice({
@@ -9,7 +10,8 @@ const nameSlice = createSlice({
     initialState,
     reducers: {
         updateName: (state, action) => {
-            state.name = action.payload;
+            state.first = action.payload.first;
+            state.last = action.payload.last;
         },
     }
 })
