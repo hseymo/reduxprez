@@ -1,13 +1,53 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  min-height: 100vh;
+  margin: 20px
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 20px;
+}
+
+.card {
+  padding: 20px;
+  margin: 10px;
+  /* background-color: #C0C0C0; */
+  border: 2px solid black;
+  border-radius: 10px;
+  flex: 1;
+  text-align: center
+}
+
+.App {
+  color: red;
+  text-align: center
+}
+
+.Counter {
+  color: green
+}
+
+.Color {
+  color: blue
+}
+
+.Name {
+  color: purple
+}
+
+.formGroup label {
+  margin-right: 15px;
+}
+
+button {
+  padding: 8px
 }
