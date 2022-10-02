@@ -1,72 +1,107 @@
-# Getting Started with Create React App
+# **Haley's React Redux Presentation**
 
-Repo: reduxprez
+![Badge](https://img.shields.io/badge/license-MIT-blue)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+---
+* [License](#license)
+* [Installation](#installation)
+* [Packages](#packages)
+* [Description](#description)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Questions](#questions)
 
-## Available Scripts
+<br>
 
-In the project directory, you can run:
+## License 
+---
+[MIT License](./LICENSE) <br>
 
-### `npm start`
+Copyright (c) 2022 Haley Seymour
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-### `npm test`
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+ <br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br>
 
-### `npm run build`
+## Installation
+---
+To install this project: 
+1. Start by forking this repository on Github. 
+2. Clone this project to your machine by using the "git clone + URL" command. 
+3. Open the project with your favorite text editor, like VS Code (in your terminal, first type "cd foldername" then "code ."). 
+4. Install Node.js from their website, if you have not already. Here are some additional [instructions](https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs).
+5. This project includes a package.json file that specifies dependencies for this project, specifically for React. Be sure to run "npm install". 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Packages
+---
+General Technologies: 
+- Javascript
+- Node.js
+- Git 
+- HTML
+- CSS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+NPM Packages
+- React
+- Redux
+- React-Redux
+- @reduxjs/toolkit
 
-### `npm run eject`
+<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Description
+---
+The goal of this project is to build an example of a react application that applies redux toolkit. This app was built using React, Javascript, HTML and CSS. 
+<br><br>
+This project is not deployed. <br><br>
+This project was presented alongside the following slide deck as a lesson on Redux Toolkit.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![First Half of Slides](./assets/Screen%20Shot%202022-10-01%20at%205.55.56%20PM.png)
+<br>
+![Second Half of Slides](./assets/Screen%20Shot%202022-10-01%20at%205.56.06%20PM.png)
+<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
+---
+After following the instructions in installation, run `npm start` and open this app on server `localhost:3000`.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### **Screenshots**
+--- 
+Application <br> 
+![Screenshot](./assets/Screen%20Shot%202022-10-01%20at%205.53.19%20PM.png)
+<br>
+Redux DevTools <br> 
+![Screenshot](./assets/Screen%20Shot%202022-10-01%20at%205.54.44%20PM.png)
+<br>
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributing 
+---
+This project was completed by myself, Haley Seymour, as part of the University of Washington Web Development Bootcamp. If you would like to contribute, please do and let me know if you have any questions.
 
-### Code Splitting
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Questions?
+---
+Please contact me on Github at [hseymo](https://github.com/hseymo) or by [email](mailto:haleycseymour@comcast.net).
