@@ -91,7 +91,7 @@ Application <br>
 ![Screenshot](./assets/Screen%20Shot%202022-10-01%20at%205.53.19%20PM.png)
 <br>
 Redux DevTools <br> 
-![Screenshot](./assets/Screen%20Shot%202022-10-01%20at%205.54.44%20PM.png)
+![Screenshot](./assets/Screen%20Shot%202022-10-01%20at%206.02.38%20PM.png)
 <br>
 
 

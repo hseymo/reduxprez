@@ -3,7 +3,7 @@ import { increment, decrement, reset } from "./counterSlice";
 
 function Counter() {
   const count = useSelector((state) => state.counter.count);
-  const name = useSelector((state) => state.name.name);
+  const name = useSelector((state) => state.name);
   const color = useSelector((state) => state.color.color);
   const dispatch = useDispatch();
 
@@ -21,7 +21,7 @@ function Counter() {
         <button onClick={(e) => dispatch(reset())}>Reset</button>
       </div>
       <h2>Color: {color} </h2>
-      <h2>Name: {name} </h2>
+      <h2>Name: {name.first} {name.last} </h2>
     </div>
   );
 }

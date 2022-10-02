@@ -4,7 +4,7 @@ import {changeColor, resetColor} from './colorSlice'
 function Color() {
   const color = useSelector(state => state.color.color)
   const count = useSelector(state => state.counter.count)
-  const name = useSelector(state => state.name.name)
+  const name = useSelector(state => state.name)
   const dispatch = useDispatch();
 
   const stylin = {
@@ -30,7 +30,7 @@ function Color() {
         >Reset</button>
       </div>
       <h2>Count: {count} </h2>
-      <h2>Name: {name} </h2>
+      <h2>Name: {name.first} {name.last} </h2>
     </div>
   );
 }

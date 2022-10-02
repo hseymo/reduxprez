@@ -49,5 +49,6 @@ html {
 }
 
 button {
-  padding: 8px
+  padding: 8px;
+  margin: 5px;
 }

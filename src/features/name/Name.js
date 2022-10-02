@@ -3,7 +3,7 @@ import { updateName } from './nameSlice';
 import { useState } from 'react';
 
 function Name() {
-  const name = useSelector(state => state.name.name)
+  const name = useSelector(state => state.name)
   const count = useSelector(state => state.counter.count)
   const color = useSelector(state => state.color.color)
   const dispatch = useDispatch();
@@ -28,7 +28,7 @@ function Name() {
   return (
     <div className="Name card" style={stylin}>
       <h1>Hello I'm the Name Component</h1>
-      <h2>Name: {name} </h2>
+      <h2>Name: {name.first} {name.last} </h2>
 
       <form
         className="container"
